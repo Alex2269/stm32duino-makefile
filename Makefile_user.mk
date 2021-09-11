@@ -42,9 +42,9 @@ USER_LIBR += MCUFRIEND_kbv
 
 # APP_NAME = aspect_blue_pill
 # APP_NAME = blink
-APP_NAME = drawBitmap_kbv
+# APP_NAME = drawBitmap_kbv
 # APP_NAME = graphictest_blue_pill # only for blue_pill board
-# APP_NAME = graphictest_kbv
+ APP_NAME = graphictest_kbv
 # APP_NAME = ommeter2
 # APP_NAME = ommeter3
 # APP_NAME = ommeter4
@@ -56,8 +56,7 @@ APP_NAME = drawBitmap_kbv
 
 # APPDIR = examples/$(EXAMPLE)
 # APPDIR = examples/blue_vga_examples/$(APP_NAME)
-# APPDIR = examples/blue_vga_examples/$(APP_NAME)
-APPDIR = examples/drawBitmap_kbv
+APPDIR = examples/$(APP_NAME)
 ## add ...
 
 ###: main file name of your sources
